@@ -205,3 +205,46 @@ width: 70%;
     text-decoration: none;
     color: white;
 }
+/* footer style */
+footer{
+    background-color: #0A0826;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 3px;
+}
+.footer-title{
+    font-weight: 700;
+font-size: 24px;
+color: white;
+padding: 0;
+margin: 0;
+}
+.footer-subtitle{
+    font-weight: 700;
+font-size: 14px;
+color: #D9DBE1;
+margin: 3px 0;
+
+}
+.logos{
+    margin: 17px 0 50px 0;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    
+}
+
+.fa-brands{
+    color: white;
+    width:17px ;
+    height:17px ;
+    padding: 7px 10px 7px 7px;
+
+   
+}
+.logo{
+    width: 32px;
+height: 32px;
+    background-color: rgb(73, 68, 84);
+    border-radius: 50%;
+}
