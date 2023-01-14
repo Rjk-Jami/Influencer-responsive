@@ -16,7 +16,44 @@ main {
     align-items: center;
 }
 
+/* header style */
+
+.header{
+    display: flex;
+    /* display: grid;
+    grid-template-columns: repeat(2,1fr); */
+    justify-content: space-between;
+    align-items: center;
+    margin:85px 120px 50px 120px ;
+    
+}
+.header-title {
+    font-weight: 700;
+    font-size: 24px;
+    color: #3A3A3A;
+}
+
+.navs ul {
+    list-style-type: none;
+    /* display: inline; */
+    /* padding-left: 34px; */
+    display: flex;
+    gap: 34px;
+}
+.navs ul li a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: #3A3A3A;
+}
+
+.navs a i {
+    width: 24px;
+    height: 24px;
+}
+
 /* banner style */
+
 .banner {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -169,28 +206,31 @@ main {
 }
 
 /* about style */
-.about-us{
+.about-us {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     margin-bottom: 100px;
     width: 80%;
     grid-column-gap: 96px;
     align-items: center;
 }
-.about-title{
+
+.about-title {
     font-weight: 700;
-font-size: 38px;
-margin-top: 0;
-margin-bottom: 16px;
+    font-size: 38px;
+    margin-top: 0;
+    margin-bottom: 16px;
 }
-.about-info{
+
+.about-info {
     font-weight: 700;
-font-size: 16px;
-color: #6C6C6C;
-width: 70%;
+    font-size: 16px;
+    color: #6C6C6C;
+    width: 70%;
 }
-.btn-secondary{
+
+.btn-secondary {
     background-color: #E02C6D;
     color: white;
     font-weight: 700;
@@ -198,53 +238,59 @@ width: 70%;
     padding: 10px 24px;
     display: flex;
     gap: 10px;
-    
+
     border: none;
 }
-.btn-secondary a{
+
+.btn-secondary a {
     text-decoration: none;
     color: white;
 }
+
 /* footer style */
-footer{
+footer {
     background-color: #0A0826;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 3px;
 }
-.footer-title{
+
+.footer-title {
     font-weight: 700;
-font-size: 24px;
-color: white;
-padding: 0;
-margin: 0;
+    font-size: 24px;
+    color: white;
+    padding: 0;
+    margin: 0;
 }
-.footer-subtitle{
+
+.footer-subtitle {
     font-weight: 700;
-font-size: 14px;
-color: #D9DBE1;
-margin: 3px 0;
+    font-size: 14px;
+    color: #D9DBE1;
+    margin: 3px 0;
 
 }
-.logos{
+
+.logos {
     margin: 17px 0 50px 0;
     display: flex;
     justify-content: center;
     gap: 16px;
-    
+
 }
 
-.fa-brands{
+.fa-brands {
     color: white;
-    width:17px ;
-    height:17px ;
+    width: 17px;
+    height: 17px;
     padding: 7px 10px 7px 7px;
 
-   
+
 }
-.logo{
+
+.logo {
     width: 32px;
-height: 32px;
+    height: 32px;
     background-color: rgb(73, 68, 84);
     border-radius: 50%;
 }
